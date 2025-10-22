@@ -1,6 +1,4 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:layouts/border.dart';
 class holi extends StatefulWidget {
   const holi({super.key});
 
@@ -29,8 +27,8 @@ class _holiState extends State<holi> {
                 color: Colors.grey,
                 borderRadius: BorderRadius.circular(40)
               ),
-              child: Text("No new banners\navaiable currently",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 20),),
               alignment: Alignment.center,
+              child: Text("No new banners\navaiable currently",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 20),),
               
             ),
             const SizedBox(height: 20),

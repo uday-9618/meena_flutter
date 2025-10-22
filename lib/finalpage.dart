@@ -2,15 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:layouts/border.dart';
 import 'package:layouts/buttons.dart';
 import 'package:layouts/finalbuttons.dart';
+import 'package:layouts/gridview.dart';
 import 'package:layouts/hardlayout.dart';
 import 'package:layouts/holi.dart';
 import 'package:layouts/layout.dart';
 import 'package:layouts/layoutthree.dart';
 import 'package:layouts/layouttwo.dart';
+import 'package:layouts/listscreen.dart';
 import 'package:layouts/main.dart';
 import 'package:layouts/newlayout.dart';
 
-import 'example.dart';
+
 class finalpage extends StatelessWidget {
   const finalpage({super.key});
 
@@ -112,19 +114,25 @@ class finalpage extends StatelessWidget {
           ),
           Container(
             child: ListTile(
-              title: Text("Lay"),
+              title: Text("buttons"),
               onTap: (){
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context)=>const example()));
-              }
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>const buttons()));
+              },
             ),
           ),
           Container(
             child: ListTile(
-              title: Text("buttons"),
+              title: Text("DynamicTextwidget"),
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>const buttons()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>const listscreen()));
+              },
+            ),
+          ),
+          Container(
+            child: ListTile(
+              title: Text("Grid page"),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> gridviewexam()));
               },
             ),
           )

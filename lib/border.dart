@@ -47,7 +47,7 @@ class _borderState extends State<border> {
               ],
             ),
           ),
-          Container(
+          SizedBox(
             height: 200,
             child: Row(
               children: [

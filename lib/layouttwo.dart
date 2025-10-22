@@ -21,7 +21,7 @@ class _layouttwoState extends State<layouttwo> {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Container(
+          SizedBox(
             height: 320,
             child: Row(
               children: [
@@ -74,7 +74,7 @@ class _layouttwoState extends State<layouttwo> {
               ],
             ),
           ),
-          Container(
+          SizedBox(
             width: 500,
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.end,

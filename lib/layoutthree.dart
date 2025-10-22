@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:layouts/border.dart';
 class layoutthree extends StatelessWidget {
   const layoutthree({super.key});
 
@@ -56,7 +55,7 @@ class layoutthree extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 20),
-            Container(
+            SizedBox(
               height: 120,
               child: ListView(
                 scrollDirection: Axis.horizontal,

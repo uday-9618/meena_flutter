@@ -26,7 +26,7 @@ class _allinoneState extends State<allinone> {
             color: Colors.blueAccent,height: 50,width: 100,child: Text("this is a box"),
           ),
           const SizedBox(height: 20,),
-          Container(
+          SizedBox(
             width: 200,
             child: TextField(
               decoration: InputDecoration(

@@ -104,10 +104,10 @@ class MyHomePage extends MyApp{
                   width:225,
                   color: Colors.red,
                   margin: EdgeInsets.all(5),
-                  child: Text("Orange"),
                   padding: EdgeInsets.all(50),
+                  child: Text("Orange"),
                 ),
-                Container(height:500,width: 225,color: Colors.pink,margin:EdgeInsets.all(5),child: Text("Pink"),padding: EdgeInsets.all(50)),
+                Container(height:500,width: 225,color: Colors.pink,margin:EdgeInsets.all(5),padding: EdgeInsets.all(50), child: Text("Pink")),
               ],
             ),
           ),
@@ -136,5 +136,3 @@ class MyHomePage extends MyApp{
     );
   }
 }
-
-

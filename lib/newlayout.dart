@@ -64,6 +64,10 @@ class _newlayoutState extends State<newlayout> {
                   child: Center(child: Text("box ${index+1}"),),
                 );
               }),),
+          ),
+          SizedBox(
+            height: 200,width: 200,
+            child: Image.asset('assetshome.jpg'),
           )
         ],
       ),

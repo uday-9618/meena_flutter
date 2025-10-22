@@ -26,8 +26,8 @@ class _layoutState extends State<layout> {
                   color: const Color.fromARGB(255, 236, 192, 176),
                   width: 160,
                   margin: EdgeInsets.all(1),
-                  child: Text("1st col"),
                   alignment: Alignment.center,
+                  child: Text("1st col"),
                 ),
                 Container(
                   width: 160,
@@ -48,8 +48,8 @@ class _layoutState extends State<layout> {
                   color: const Color.fromARGB(255, 228, 100, 53),
                   width: 160,
                   margin: EdgeInsets.all(1),
-                  child: Text("3st col"),
                   alignment: Alignment.center,
+                  child: Text("3st col"),
                 )
               ],               
             )
@@ -115,16 +115,16 @@ class _layoutState extends State<layout> {
                         height: 70,
                         width: 150,
                         margin: EdgeInsets.fromLTRB(8, 17, 8, 2),
-                        child: Text("Hey This is inner part of layout"),
                         alignment: Alignment.center,
+                        child: Text("Hey This is inner part of layout"),
                       ),
                       Container(
                         color: const Color.fromARGB(255, 199, 187, 84),
                         height: 70,
                         width: 150,
-                        child: Text("Yellow Color"),
                         alignment: Alignment.center,
                         margin: EdgeInsets.fromLTRB(8,18,8,11),
+                        child: Text("Yellow Color"),
                       )
                     ],
                   ),
@@ -153,9 +153,9 @@ class _layoutState extends State<layout> {
                   color: Colors.green,
                   height: 200,
                   width: 240,
-                  child: Text("This is last row"),
                   alignment: Alignment.center,
                   margin: EdgeInsets.all(1),
+                  child: Text("This is last row"),
                 ),
                 Container(
                   color: Colors.blueGrey,

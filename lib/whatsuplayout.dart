@@ -57,7 +57,7 @@ class _whatsuplayoutState extends State<whatsuplayout> {
       body: SingleChildScrollView(
         child: Column(
         children: [
-          Container(
+          SizedBox(
             width: 500,
             child: TextField(
               decoration: InputDecoration(

@@ -30,7 +30,7 @@ class _buttonsState extends State<buttons> {
           const SizedBox(height: 20,),
           const Text("Login page",style: TextStyle(color: Color.fromARGB(255, 88, 125, 228),fontWeight: FontWeight.bold,fontSize: 20),),
           const SizedBox(height: 10,),
-          Container(
+          SizedBox(
             width: 280,
             child: TextField(
               decoration: InputDecoration(
@@ -45,7 +45,7 @@ class _buttonsState extends State<buttons> {
             ),
           ),
           const SizedBox(height: 10,),
-          Container(
+          SizedBox(
             width: 280,
             child: TextField(
               decoration: InputDecoration(
