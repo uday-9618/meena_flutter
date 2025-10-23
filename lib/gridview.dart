@@ -57,13 +57,24 @@ class gridviewexam extends StatelessWidget {
             }),),
           ),
           Container(
-            height: 300,
+            height: 200,
             padding: EdgeInsets.all(10),
             child: GridView.count(crossAxisCount: 5,crossAxisSpacing: 2,mainAxisSpacing: 2,
             children: List.generate(20, (index){
               return Container(
                 color: Colors.blue[100 * ((index % 8) + 1)],
                 child: Text("B${index+1}"),
+              );
+            }),),
+          ),
+          Container(
+            height:100,
+            padding: EdgeInsets.all(10),
+            child: GridView.count(crossAxisCount: 3,crossAxisSpacing: 2,mainAxisSpacing: 5,childAspectRatio: 3.0,
+            children: List.generate(11, (index){
+              return Container(
+                color: Colors.deepOrange[100*((index%3)+1)],
+                child: Text("Me${index+1}",style: TextStyle(fontWeight: FontWeight.normal,fontSize: 25,color: const Color.fromARGB(255, 23, 156, 5),fontStyle: FontStyle.italic),),
               );
             }),),
           )

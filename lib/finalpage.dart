@@ -5,6 +5,7 @@ import 'package:layouts/finalbuttons.dart';
 import 'package:layouts/gridview.dart';
 import 'package:layouts/hardlayout.dart';
 import 'package:layouts/holi.dart';
+import 'package:layouts/imagesexam.dart';
 import 'package:layouts/layout.dart';
 import 'package:layouts/layoutthree.dart';
 import 'package:layouts/layouttwo.dart';
@@ -133,6 +134,14 @@ class finalpage extends StatelessWidget {
               title: Text("Grid page"),
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> gridviewexam()));
+              },
+            ),
+          ),
+          Container(
+            child: ListTile(
+              title: Text("Images"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>imagesexam()) );
               },
             ),
           )
