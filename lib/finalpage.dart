@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:layouts/border.dart';
 import 'package:layouts/buttons.dart';
+import 'package:layouts/design.dart';
 import 'package:layouts/finalbuttons.dart';
 import 'package:layouts/gridview.dart';
 import 'package:layouts/hardlayout.dart';
 import 'package:layouts/holi.dart';
+import 'package:layouts/image.dart';
 import 'package:layouts/imagesexam.dart';
 import 'package:layouts/layout.dart';
 import 'package:layouts/layoutthree.dart';
@@ -12,7 +14,6 @@ import 'package:layouts/layouttwo.dart';
 import 'package:layouts/listscreen.dart';
 import 'package:layouts/main.dart';
 import 'package:layouts/newlayout.dart';
-
 
 class finalpage extends StatelessWidget {
   const finalpage({super.key});
@@ -142,6 +143,22 @@ class finalpage extends StatelessWidget {
               title: Text("Images"),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>imagesexam()) );
+              },
+            ),
+          ),
+          Container(
+            child: ListTile(
+              title: Text("Imagepart2"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>images()));
+              },
+            ),
+          ),
+          Container(
+            child: ListTile(
+              title: Text("Design"),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>design()));
               },
             ),
           )

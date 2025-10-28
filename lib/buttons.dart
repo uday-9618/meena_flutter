@@ -34,8 +34,8 @@ class _buttonsState extends State<buttons> {
             width: 280,
             child: TextField(
               decoration: InputDecoration(
-                label: Text("UserName",style: TextStyle(color: Colors.grey),),
-                hintText: "Enter Your User name",
+                label: Text("Mobile/email",style: TextStyle(color: Colors.grey),),
+                hintText: "Enter Your Email / mobile",
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(40),
                   borderSide: BorderSide(width: 20),
@@ -65,12 +65,11 @@ class _buttonsState extends State<buttons> {
               backgroundColor: const Color.fromARGB(255, 36, 5, 216),
               foregroundColor: const Color.fromARGB(255, 243, 243, 245),
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadiusGeometry.circular(10)
+                borderRadius: BorderRadiusGeometry.circular(30)
               )
             ),
             child: Text("submit"),
           ), 
-
         ],
       ),
     );

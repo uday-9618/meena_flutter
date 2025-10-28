@@ -135,7 +135,7 @@ class _finalbuttonsState extends State<finalbuttons> {
                 ElevatedButton.icon(onPressed: (){
                   print("button clicked");
                 },
-                icon: Icon(Icons.thumb_up,size: 40,), label: Text("Like")),
+                icon: Icon(Icons.thumb_up,size: 30,), label: Text("Like")),
                 ElevatedButton.icon(onPressed: (){
                   print("clicked on elevated icon button");
                 }, icon: Icon(Icons.share_location),label: Text("Location Share"))
@@ -198,7 +198,7 @@ class _finalbuttonsState extends State<finalbuttons> {
           ElevatedButton.icon(
                     onPressed: (){
                       print("Third Elevated button was clicked");
-                    },style: ElevatedButton.styleFrom(shape: RoundedRectangleBorder(),backgroundColor: Colors.green),
+                    },style: ElevatedButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(20)),backgroundColor: Colors.green),
                       icon: Icon(Icons.arrow_right,),
                       label: Text("Buy Now")
                   ),
