@@ -23,7 +23,7 @@ class images extends StatelessWidget {
             ]
           ),
         ),
-        // ClipOval(child: Image.network("https://eduindex.org/wp-content/uploads/2021/07/green-solution.jpg",width: 300,height: 150,)),
+        ClipOval(child: Image.network("https://eduindex.org/wp-content/uploads/2021/07/green-solution.jpg",width: 300,height: 150,)),
         ClipOval(child: Image.network("https://eduindex.org/wp-content/uploads/2021/07/green-solution.jpg",width: 300,height: 150,fit: BoxFit.cover,),),
         Container(
           child: ClipRRect(

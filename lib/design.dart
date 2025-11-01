@@ -63,7 +63,27 @@ class design extends StatelessWidget {
                       Text("dynamic field"),
                     ],
                   ),
+                ),
+                Container(
+              child: ClipRRect(
+              borderRadius: BorderRadiusGeometry.circular(20),
+              child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpl1NPc9e-mA0-isqbgUeDlcC6y8oZ4F_tuQ&s',height: 200,width: 200,fit: BoxFit.cover,)),
+          ),
+          Container(
+            height: 200,
+            width: 300,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(image: NetworkImage('https://i.pinimg.com/236x/ee/0a/e2/ee0ae235e3eff1a018c5d95ce6a28c6c.jpg'),fit: BoxFit.fill),
+              border: Border.all(color: Colors.cyanAccent,width: 5),
+              boxShadow: [
+                BoxShadow(
+                  blurRadius: 10,
+                  color: Colors.lightGreenAccent,
                 )
+              ]
+            ),
+          )
               ],
             ),
           ),

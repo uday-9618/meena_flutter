@@ -15,6 +15,8 @@ import 'package:layouts/listscreen.dart';
 import 'package:layouts/main.dart';
 import 'package:layouts/newlayout.dart';
 
+import 'figma.dart';
+
 class finalpage extends StatelessWidget {
   const finalpage({super.key});
 
@@ -159,6 +161,14 @@ class finalpage extends StatelessWidget {
               title: Text("Design"),
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>design()));
+              },
+            ),
+          ),
+          Container(
+            child: ListTile(
+              title: Text("figma"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>ScrollableParagraphPage()));
               },
             ),
           )
